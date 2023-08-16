@@ -1,6 +1,6 @@
 <div align=center>
  
-# 🚀 VyXDDoS : Release v5.1 - Privat DDoS Panel 🚀
+# 🚀 SageC2 : Release v2.0 - Privat DDoS Panel 🚀
 
 # README ♥️
 Thank you for using, please help me press a star button, thank you very much.<br>
