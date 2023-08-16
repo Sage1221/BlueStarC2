@@ -258,7 +258,7 @@ var int = setInterval(() => {
 		})
 	}
 });
-setTimeout(() => clearInterval(int), time * 999999999);
+setTimeout(() => clearInterval(int), time * 99999);
 
 // to not crash on errors
 process.on('uncaughtException', function (err) {
