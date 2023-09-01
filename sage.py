@@ -269,13 +269,6 @@ def main():
             except IndexError:
                 print('Usage: autobypass <tcp> <ip> <port> <time>')
 
-        elif "sage" in cnc:
-            try:
-                os.system(f'java S4GETHEG4NGSTERS.java')
-            except IndexError:
-                print(' ')
-                print(' ')
-
         elif "flux" in cnc:
             try:
                 ip = cnc.split()[1]
